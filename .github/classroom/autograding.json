@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "AddDigits",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testAddDigits",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Palindrome",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testIsPalindrome",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Reverse",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testReverse",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
